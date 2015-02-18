@@ -1,0 +1,173 @@
+div.trainingjournal-header,
+div.trainingjournal-text,
+div.trainingjournal-addnew,
+div.trainingjournal-addnew-input,
+div.trainingjournal-addnew-submit,
+div.trainingjournal-data {
+	width: 500px;
+/*	border: dotted 1px dimgray;*/
+}
+
+div.trainingjournal-addnew-submit {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.trainingjournal-data,
+td.trainingjournal-data,
+td.trainingjournal-data-item {
+	border-collapse: collapse;
+	border-color: #C0C0C0;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	padding: 1px;
+	font: 12px verdana, arial, sans-serif;
+	padding: 0px 4px 0px 4px;
+}
+
+table.trainingjournal-data {
+	border-width: 1px;
+}
+
+thead.trainingjournal-data {
+	background: #336699;
+}
+
+thead.trainingjournal-data th {
+	font: bold 13px verdana, arial, sans-serif;
+	padding: 4px;
+	color: #FFFFFF;
+}
+
+td.trainingjournal-data {
+	padding: 2px;
+	border-width: 1px;
+}
+
+td.trainingjournal-data-item {
+ padding: 2px;
+}
+
+table.trainingjournal-data {
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td.trainingjournal-data input {
+	margin: 2px;
+	padding: 0px;
+	border: 0px;
+}
+
+tbody tr:nth-child(even) {background: #FCFCFC}
+tbody tr:nth-child(odd) {background: #E0E0E0}
+
+li.trainingjournal-data img {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.trainingjournal-data-items {
+	width: 500px;
+/*	border: dotted 1px red;*/
+}
+
+ul.trainingjournal-data-item,
+li.trainingjournal-data-item-l,
+li.trainingjournal-data-item-r
+td.trainingjournal-data-item {
+/*	border: dotted 1px dimgray;*/
+	display: inline;
+	margin: 0px 2px 0px 2px;
+	list-style-type: none;
+}
+li.trainingjournal-data-item-l {
+	float: left;
+/*	margin: 0px 0px 0px 4px;*/
+}
+
+li.trainingjournal-data-item-r {
+	float: right;
+/*	margin: 0px 4px 0px 0px;*/
+}
+
+
+li.trainingjournal-data-item-l {
+	float: left;
+/*	margin: 0px 0px 0px 4px;*/
+}
+
+li.trainingjournal-data-item-r {
+	float: right;
+/*	margin: 0px 4px 0px 0px;*/
+}
+
+div.trainingjournal-data-comment {
+/*	border: dashed 1px lime;*/
+	clear: both;
+	padding: 1px 1px 1px 30px;
+}
+
+
+
+
+
+
+
+
+ul#trainingjournal-navlist {
+	font: bold 11px verdana, arial, sans-serif;
+	list-style-type: none;
+	padding-bottom: 23px;
+	/*border-bottom: 1px solid #6c6;*/
+	border-bottom: 1px solid #2A537D;
+	margin: 0;
+}
+
+ul#trainingjournal-navlist li {
+	float: left;
+	height: 21px;
+/*	background-color: #cfc;*/
+	background-color: #7BBFFF;
+	margin: 2px 2px 0 2px;
+	border: 1px solid #2A537D;
+}
+
+ul#trainingjournal-navlist li#trainingjournal-navlistactive {
+	border-bottom: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+li#trainingjournal-navlistactive input {
+	background-color: #FFFFFF;
+}
+
+#trainingjournal-navlist input {
+	float: left;
+	display: block;
+	color: #666;
+/*	color: #55A9FF;*/
+	padding: 4px;
+	border: 0;
+/*	background-color: #cfc;*/
+	background-color: #98CDFF;
+	background-image: none;
+	border-bottom: 1px solid #2A537D;
+	font: bold 11px verdana, arial, sans-serif;
+}
+
+#trainingjournal-navlist input:hover { 
+	background: #FFFFFF; 
+
+}
+
+#trainingjournal-navlistactive input {
+	border-bottom: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+	border-radius: 0px;
+}
+
+
+
+
